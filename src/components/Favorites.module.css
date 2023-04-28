@@ -1,0 +1,13 @@
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0; /* Establece la posición en la parte inferior */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%);
+}
+

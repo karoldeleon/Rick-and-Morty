@@ -1,0 +1,23 @@
+.Card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  padding: 1em;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 25%; 
+  left: 50%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: rgb(10, 122, 226) ;
+  text-shadow: 5px 5px 4px rgba(58,255,0,1);
+  font-size: 150%;
+  opacity: 0.9;
+}
+
+.Image{
+   border-radius: 50%;
+   width: 30%;
+}

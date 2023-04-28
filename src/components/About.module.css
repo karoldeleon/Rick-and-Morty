@@ -1,0 +1,135 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    width: 60%;
+    height: 70%; 
+    margin: auto;
+    padding: 1em;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 50%; 
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgb(91, 4, 126) ;
+    text-shadow: 5px 5px 4px rgb(10, 122, 226);
+    font-size: 150%;
+    opacity: 0.97;
+    top: 90%; /* Cambio en la propiedad top */
+    transform: translate(-50%, -50%);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+    
+}
+
+.image{
+    border-radius: 50%;
+    width: 25%;
+    align-self: flex-start; 
+    margin-bottom: -50x;
+    margin-top: -38%;
+    
+ }
+  
+  .title {
+    text-align: center; 
+    font-size: 80px; 
+    COLOR: #000000; 
+    text-shadow: 5px 5px 4px rgb(255, 31, 218);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: -125px;
+    margin-left: -200px; /* Mover hacia la izquierda */
+    margin-top: -40px; /* Mover hacia arriba */
+  }
+  
+  .subtitle {
+    text-align: center; 
+    font-size: 40px; 
+    COLOR: #000000; 
+    text-shadow: 5px 5px 4px rgb(10, 122, 226);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 12%;
+    margin-left: -37%;
+  }
+
+  .subtitle1{
+    text-align: center; 
+    font-size: 35px; 
+    COLOR: #000000; 
+    text-shadow: 5px 5px 4px rgb(20, 255, 12);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: -3%;
+    margin-left: -28%;
+  }
+
+  .subtitl2{
+    text-align: center; 
+    font-size: 40px; 
+    COLOR: #000000; 
+    text-shadow: 5px 5px 4px rgb(10, 122, 226);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 1%;
+    margin-left: -35%;
+  }
+  
+  .subtitle3{
+    text-align: center; 
+    font-size: 35px; 
+    COLOR: #000000; 
+    text-shadow: 5px 5px 4px rgb(20, 255, 12);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: -3%;
+    margin-left: 18%;
+  }
+
+  .subtitl4{
+    text-align: center; 
+    font-size: 60px; 
+    COLOR: #000000; 
+    text-shadow: 5px 5px 4px rgb(197, 255, 37);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 2%;
+    margin-left: -1%;
+  }
+
+
+  .unorderedList {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6em;
+    
+    
+  }
+  
+  .listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 10vh;
+    background-color: rgb(10, 122, 226);
+    padding: 1em;
+    margin: 5px;
+    font-weight: 500;
+    border-radius: 50%;
+    color: #1d12bf;
+    font-size: 30px;
+  }
+  .listItem:hover {
+    background-color: #000000c9;
+    color: beige;
+    
+  }
+  
+  .listItem img {
+    width: 50%;
+    object-fit: cover;
+    margin: 15px;
+  }
+  

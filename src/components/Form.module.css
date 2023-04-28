@@ -1,0 +1,56 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    width: 40%;
+    height: 90%; 
+    margin: auto;
+    padding: 1em;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 25%; 
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgb(10, 122, 226) ;
+    text-shadow: 5px 5px 4px rgba(58,255,0,1);
+    font-size: 150%;
+    opacity: 0.9;
+    top: 100%; /* Cambio en la propiedad top */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+.image{
+    border-radius: 50%;
+    width: 40%;
+ }
+
+ .input{
+    width: 15vw;
+    border: 10%;
+    height: 35px;
+    justify-content: flex-start;
+    font-size: 100%;
+    text-align: center;
+    text-shadow: 2px 1px 4px rgb(0, 0, 0);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.button{
+
+    width: 15vw; 
+    height: 70px;
+    background-color: rgb(76, 6, 97) ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 150%;
+    text-shadow: 5px 5px 4px rgba(58,255,0,1);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-radius: 40%;
+    margin-top: 15px;
+    
+}
