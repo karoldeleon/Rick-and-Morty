@@ -1,36 +1,131 @@
+/* .Card {
+  text-shadow: 2px 1px 4px rgba(58,255,0,1);
+  width: fit-content;
+  padding: 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(10, 122, 226) ;
+  opacity: 0.9;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button {
+  background-color: #4CAF50;
+  border-radius: 30%;
+  color: white;
+  padding: 2% 5%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6vw;
+  align-self: flex-start;
+  margin-top: -10%;
+  margin-left: 22.5%;
+  width: -80%;
+  margin-bottom: 2%;
+}
+
+.button1 {
+  font-size: 4vw;
+  color: blueviolet;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(10, 122, 226);
+  margin-bottom: 2%;
+}
+
+@media (max-width: 768px) {
+  .Card {
+    font-size: 1.4vw;
+    padding: 0.5vw;
+  }
+
+  .button {
+    font-size: 1.4vw;
+    padding: 1% 3%;
+    margin-top: -5%;
+    margin-left: 15%;
+    width: 4%;
+    margin-bottom: 1%;
+  }
+
+  .button1 {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Card {
+    font-size: 1.8vw;
+    padding: 1.5vw;
+  }
+
+  .button {
+    font-size: 1.8vw;
+    padding: 2% 4%;
+    margin-top: -15%;
+    margin-left: 20%;
+    width: 3.5%;
+    margin-bottom: 2%;
+  }
+
+  .button1 {
+    font-size: 4.5vw;
+  }
+}
+
+@media (min-width: 1025px) {
+  .Card {
+    font-size: 2vw;
+    padding: 2vw;
+  }
+
+  .button {
+    font-size: 2vw;
+    padding: 3% 5%;
+    margin-top: -20%;
+    margin-left: 22.5%;
+    width: 3%;
+    margin-bottom: 3%;
+  }
+} */
+
 .Card{
-    text-shadow: 2px 1px 4px rgba(58,255,0,1);
-    width: fit-content;
-    padding: 1em;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(10, 122, 226) ;
-    opacity: 0.9;
-    font-size: 16px;
-    text-align: center;
+  text-shadow: 2px 1px 4px rgba(58,255,0,1);
+  width: fit-content;
+  padding: 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(10, 122, 226) ;
+  opacity: 0.9;
+  font-size: 16px;
+  text-align: center;
 }
 
 .button{
-  background-color: #4CAF50; /* Green */
+background-color: #4CAF50; /* Green */
+border-radius: 35%;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+align-self: flex-start; 
+margin-top: -50px;
+margin-left: auto;
+margin-bottom: 10px;
+
+}
+
+.button1{
+  font-size: 40px;
+  color: blueviolet;
   border-radius: 50%;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  align-self: flex-start; 
-  margin-top: 0;
-  margin-left: auto;
-
+  border: none;
+  background-color: rgb(10, 122, 226) ;
+  margin-block-end: none;
   }
-
-  .button1{
-    font-size: 40px;
-    color: blueviolet;
-    border-radius: 50%;
-    border: none;
-    background-color: rgb(10, 122, 226) ;
-    margin-block-end: none;
-    }

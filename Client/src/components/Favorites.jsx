@@ -21,20 +21,22 @@ function Favorites(props) {
  }
 
    return (
-   <div className={styles.Cards} >
-   <select onChange={handleOrder} >
-   <option value="A">Ascendente</option>
-   <option value="D">Descendente</option>
-   </select>
+      <div>
+      <div className={styles.SelectContainer}>
+        <select onChange={handleOrder} className={styles.buttonselect}>
+          <option value="A">Ascendente</option>
+          <option value="D">Descendente</option>
+        </select>
 
-   <select onChange={handleFilter}>
-   <option value="Male">Male</option>
-   <option value="Female">Female</option>
-   <option value="Genderless">Genderless</option>
-   <option value="unknown">unknown</option>
-   <option value="allCharacters">allCharacter</option>
-   </select>   
-
+        <select onChange={handleFilter} className={styles.buttonselect}>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Genderless">Genderless</option>
+          <option value="unknown">unknown</option>
+          <option value="allCharacters">allCharacter</option>
+        </select>
+      </div>
+      <div className={styles.Cards}>
         {
          props.myFavorites.map((character) => {
             return <Card 
@@ -51,7 +53,7 @@ function Favorites(props) {
 
       }
    </div>
-
+   </div>
    )
 }
 

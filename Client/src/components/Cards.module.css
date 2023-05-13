@@ -1,13 +1,16 @@
 .Cards{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
     width: 80%;
     margin: auto;
     padding: 1em;
     border-radius: 15px;
     position: absolute;
-    bottom: 0; /* Establece la posición en la parte inferior */
-    left: 50%; /* Centra horizontalmente */
-    transform: translateX(-50%);
+    top: 100px; /* Ajusta este valor según la altura de tu barra de navegación */
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 

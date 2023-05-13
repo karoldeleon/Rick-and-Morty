@@ -1,13 +1,42 @@
 .Cards{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
     width: 80%;
     margin: auto;
     padding: 1em;
     border-radius: 15px;
     position: absolute;
-    bottom: 0; /* Establece la posición en la parte inferior */
-    left: 50%; /* Centra horizontalmente */
-    transform: translateX(-50%);
+    top: 150px; /* Ajusta este valor según la altura de tu barra de navegación */
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
+.buttonselect {
+    padding: 5px;
+    border: none;
+    background: #f06;
+    border-radius: 5px 0 0 5px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.9;
+    width: 15%;
+    height: 60px;
+    font-size: 20px;
+    margin-right: 25px;
+    text-shadow: 2px 1px 4px rgb(0, 0, 0);
+  }
+  
+  .SelectContainer {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+    opacity: 0.9;
+    margin-right: 25px;
+    width: 100%;
+    text-shadow: 2px 1px 4px rgb(0, 0, 0);
+  }
